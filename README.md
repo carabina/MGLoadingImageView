@@ -19,6 +19,13 @@ it, simply add the following line to your Podfile:
 pod "MGLoadingImageView"
 ```
 
+## Usage
+
+Storyboard/Xib
+
+If using MGLoadingImageView in storyboard or .xib file make sure to have the module set to MGLoadingImageView in identity inspector
+
+
 ## Author
 
 mikegilroy, hello@mikegilroy.co
