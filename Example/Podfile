@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MGLoadingImageView_Example' do
+  pod 'MGLoadingImageView', :path => '../'
+
+  target 'MGLoadingImageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
