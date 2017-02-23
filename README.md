@@ -1,6 +1,5 @@
 # MGLoadingImageView
 
-[![CI Status](http://img.shields.io/travis/mikegilroy/MGLoadingImageView.svg?style=flat)](https://travis-ci.org/mikegilroy/MGLoadingImageView)
 [![Version](https://img.shields.io/cocoapods/v/MGLoadingImageView.svg?style=flat)](http://cocoapods.org/pods/MGLoadingImageView)
 [![License](https://img.shields.io/cocoapods/l/MGLoadingImageView.svg?style=flat)](http://cocoapods.org/pods/MGLoadingImageView)
 [![Platform](https://img.shields.io/cocoapods/p/MGLoadingImageView.svg?style=flat)](http://cocoapods.org/pods/MGLoadingImageView)
@@ -22,7 +21,7 @@ pod "MGLoadingImageView"
 
 ## Author
 
-mikegilroy, mjgilroy@me.com
+mikegilroy, hello@mikegilroy.co
 
 ## License
 
