@@ -1,25 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MGLoadingImageView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v0M-Nd-NdW" customClass="MGLoadingImageView" customModule="MGLoadingImageView">
+                                <rect key="frame" x="26" y="50" width="323" height="294"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="323" id="UDf-IZ-c7f"/>
+                                    <constraint firstAttribute="height" constant="294" id="x8g-7V-uZi"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="placeholderImage" value="placeholder_grey"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxP-6d-lNt">
+                                <rect key="frame" x="26" y="371" width="323" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ltX-Fd-G4g"/>
+                                </constraints>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SvD-lf-NbH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRT-w1-UCi">
+                                <rect key="frame" x="26" y="419" width="323" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="unl-zC-vqG"/>
+                                </constraints>
+                                <state key="normal" title="Load Image">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <action selector="startLoadingTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3UM-tn-kib"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v0M-Nd-NdW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="Gwg-8O-mFS"/>
+                            <constraint firstItem="hRT-w1-UCi" firstAttribute="top" secondItem="zxP-6d-lNt" secondAttribute="bottom" constant="8" id="JwB-xJ-e3e"/>
+                            <constraint firstItem="v0M-Nd-NdW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="LKk-c1-0MQ"/>
+                            <constraint firstItem="zxP-6d-lNt" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="LbC-Lc-h2p"/>
+                            <constraint firstItem="zxP-6d-lNt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="SEI-za-XJf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hRT-w1-UCi" secondAttribute="trailing" constant="10" id="TyD-QO-wn1"/>
+                            <constraint firstItem="hRT-w1-UCi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="Yti-dM-npU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zxP-6d-lNt" secondAttribute="trailing" constant="10" id="dHG-yq-UxM"/>
+                            <constraint firstItem="v0M-Nd-NdW" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" constant="-10" id="m8P-zb-bKq"/>
+                            <constraint firstItem="zxP-6d-lNt" firstAttribute="top" secondItem="v0M-Nd-NdW" secondAttribute="bottom" constant="27" id="qpR-4T-qRy"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="demoImageView" destination="v0M-Nd-NdW" id="x9D-WY-CAN"/>
+                        <outlet property="loadImageButton" destination="hRT-w1-UCi" id="m9I-O8-Fn6"/>
+                        <outlet property="resetButton" destination="zxP-6d-lNt" id="qzQ-uc-s3o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="placeholder_grey" width="214" height="214"/>
+    </resources>
 </document>

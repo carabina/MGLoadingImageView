@@ -11,12 +11,12 @@
 		2F5C7EF34C61CE077226F95EA4212B49 /* Pods-MGLoadingImageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E44EABB9DB83F2B0A4E2D50817C9142 /* Pods-MGLoadingImageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FD31508407E6D8BEBCE608E3EAAC0AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3F9F6597077CE49B64F51958F2DE422F /* Pods-MGLoadingImageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BB8AC7B8E67BE5FAC631ACCAE6F9AD /* Pods-MGLoadingImageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45818FCF7BBFCBD3250EB25A4709FD9F /* MGLoadingImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4D88B7E7867C267B27C15D8543C6EA /* MGLoadingImageView-dummy.m */; };
 		63F7A8870F3E21552A74B7C987515488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		92668B99126F8E4EB9D54879C938BB1D /* MGLoadingImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 644DBE46DEE7ADF44C9CA6CB446CFD6C /* MGLoadingImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A08B25A4C2222A007C3D9B0DB912A54B /* Pods-MGLoadingImageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A67567110AE1CE2CB59D127F404BB58B /* Pods-MGLoadingImageView_Tests-dummy.m */; };
+		A0BDB7565635E444A42AE2C631DE0218 /* MGLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A54BAE3E1052512A9DF9F18360F3AA /* MGLoadingImageView.swift */; };
+		F258000F9B52EB850F0C4A0A5FE9151E /* MGLoadingImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4D88B7E7867C267B27C15D8543C6EA /* MGLoadingImageView-dummy.m */; };
 		FB3E9CDDF3722D82A522642FBAABBFC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FB822A9605793E6B36844BC4D232B6FD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED6568663C6FA983A82F7A1A9644FE /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +39,13 @@
 		4F88B140C5CFDB595F3FB6D32BE40442 /* Pods-MGLoadingImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGLoadingImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		503EAF361D20D9A7227C6E402EFA83A1 /* Pods-MGLoadingImageView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGLoadingImageView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5C96F9C0784A2357CE39465C7A5EC700 /* Pods-MGLoadingImageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGLoadingImageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5CED6568663C6FA983A82F7A1A9644FE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		62AC8719A9D730E4FDA55463AA4B8DFA /* Pods_MGLoadingImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGLoadingImageView_Example.framework; path = "Pods-MGLoadingImageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		644DBE46DEE7ADF44C9CA6CB446CFD6C /* MGLoadingImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGLoadingImageView-umbrella.h"; sourceTree = "<group>"; };
 		6DB52D74E2184214A3CA1AC946945401 /* Pods-MGLoadingImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGLoadingImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E44EABB9DB83F2B0A4E2D50817C9142 /* Pods-MGLoadingImageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGLoadingImageView_Example-umbrella.h"; sourceTree = "<group>"; };
 		705ED8612B8E947969C51FCBA5626275 /* Pods-MGLoadingImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGLoadingImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		77A1B6E0E08D8E6837827B3EB69556D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A54BAE3E1052512A9DF9F18360F3AA /* MGLoadingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MGLoadingImageView.swift; sourceTree = "<group>"; };
 		7A4D88B7E7867C267B27C15D8543C6EA /* MGLoadingImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGLoadingImageView-dummy.m"; sourceTree = "<group>"; };
 		83D4C6F0C2493F2933A192C17FF2C688 /* Pods-MGLoadingImageView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGLoadingImageView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		851D0B98FA138982C1F8EDEBA1501485 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,10 +92,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0474EFF6350788B499FA99871EFB4445 /* Classes */ = {
+		2C61461FC2CE8DBC6136911FE89DADBA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5CED6568663C6FA983A82F7A1A9644FE /* ReplaceMe.swift */,
+				79A54BAE3E1052512A9DF9F18360F3AA /* MGLoadingImageView.swift */,
 			);
 			name = Classes;
 			path = Classes;
@@ -179,7 +179,7 @@
 		B30A3AC7C2E0F519238B6DFDEED20773 /* MGLoadingImageView */ = {
 			isa = PBXGroup;
 			children = (
-				0474EFF6350788B499FA99871EFB4445 /* Classes */,
+				2C61461FC2CE8DBC6136911FE89DADBA /* Classes */,
 			);
 			name = MGLoadingImageView;
 			path = MGLoadingImageView;
@@ -275,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B8F9F848D9134C207C16D761F404434 /* Build configuration list for PBXNativeTarget "MGLoadingImageView" */;
 			buildPhases = (
-				1ED0CF6FE6BB9B1B13D90DC204AB615D /* Sources */,
+				2830A244F9137FC2D6E835A4A5FFB7D9 /* Sources */,
 				19A1D1A237FBA2D2C382C91C280387D8 /* Frameworks */,
 				C0470FBC42D0B81A266DE1A3C1BB4F82 /* Headers */,
 			);
@@ -343,12 +343,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ED0CF6FE6BB9B1B13D90DC204AB615D /* Sources */ = {
+		2830A244F9137FC2D6E835A4A5FFB7D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45818FCF7BBFCBD3250EB25A4709FD9F /* MGLoadingImageView-dummy.m in Sources */,
-				FB822A9605793E6B36844BC4D232B6FD /* ReplaceMe.swift in Sources */,
+				F258000F9B52EB850F0C4A0A5FE9151E /* MGLoadingImageView-dummy.m in Sources */,
+				A0BDB7565635E444A42AE2C631DE0218 /* MGLoadingImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +372,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		027C6EEC8ADF54D6A59B0A5B84518ADE /* Release */ = {
+		0CF33BF5E25CC86F731ECAD927F63110 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D12B97012E052FEDBF09BF16CC64D9FD /* Pods-MGLoadingImageView_Tests.release.xcconfig */;
 			buildSettings = {
@@ -389,7 +389,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MGLoadingImageView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MGLoadingImageView_Tests/Pods-MGLoadingImageView_Tests.modulemap";
@@ -407,44 +407,9 @@
 			};
 			name = Release;
 		};
-		11649D10C8B8E558DA7696156B929B61 /* Release */ = {
+		0F23A6CB8FE79CB9A0AADDBC9ABBEFB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 705ED8612B8E947969C51FCBA5626275 /* Pods-MGLoadingImageView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MGLoadingImageView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MGLoadingImageView_Example/Pods-MGLoadingImageView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MGLoadingImageView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1C76B1E54D709337F7C678A51B81174B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F88B140C5CFDB595F3FB6D32BE40442 /* Pods-MGLoadingImageView_Example.debug.xcconfig */;
+			baseConfigurationReference = A9098D13018BC9AA86931B4C9283A180 /* MGLoadingImageView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -457,68 +422,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MGLoadingImageView_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MGLoadingImageView/MGLoadingImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGLoadingImageView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MGLoadingImageView_Example/Pods-MGLoadingImageView_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MGLoadingImageView/MGLoadingImageView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MGLoadingImageView_Example;
+				PRODUCT_NAME = MGLoadingImageView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -554,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -562,39 +484,43 @@
 			};
 			name = Debug;
 		};
-		B5A1B59AE00E712302AC6DC8ADCF1212 /* Release */ = {
+		33D5AC3945191716D5F0CA233FCFAF6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9098D13018BC9AA86931B4C9283A180 /* MGLoadingImageView.xcconfig */;
+			baseConfigurationReference = 4F88B140C5CFDB595F3FB6D32BE40442 /* Pods-MGLoadingImageView_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MGLoadingImageView/MGLoadingImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGLoadingImageView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGLoadingImageView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGLoadingImageView/MGLoadingImageView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MGLoadingImageView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGLoadingImageView_Example/Pods-MGLoadingImageView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGLoadingImageView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C2F7E11744665062AE4D572E25CE5B9A /* Debug */ = {
+		87A167D7A8A63533548C816707EFD027 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6DB52D74E2184214A3CA1AC946945401 /* Pods-MGLoadingImageView_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -611,7 +537,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MGLoadingImageView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MGLoadingImageView_Tests/Pods-MGLoadingImageView_Tests.modulemap";
@@ -629,7 +555,7 @@
 			};
 			name = Debug;
 		};
-		D46F0DFB642A27825026CCE3E52618A8 /* Debug */ = {
+		B02C9A6AC454A7AAAAE49C3EB9716FA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9098D13018BC9AA86931B4C9283A180 /* MGLoadingImageView.xcconfig */;
 			buildSettings = {
@@ -637,7 +563,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -647,20 +573,94 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MGLoadingImageView/MGLoadingImageView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MGLoadingImageView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MGLoadingImageView/MGLoadingImageView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = MGLoadingImageView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		DAEC9D02B7B6741DC5E5F6ECEB5A965A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705ED8612B8E947969C51FCBA5626275 /* Pods-MGLoadingImageView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGLoadingImageView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGLoadingImageView_Example/Pods-MGLoadingImageView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGLoadingImageView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -668,8 +668,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -677,8 +677,8 @@
 		4D4DE18C5E3ED8026AE6B6437A1C4174 /* Build configuration list for PBXNativeTarget "Pods-MGLoadingImageView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2F7E11744665062AE4D572E25CE5B9A /* Debug */,
-				027C6EEC8ADF54D6A59B0A5B84518ADE /* Release */,
+				87A167D7A8A63533548C816707EFD027 /* Debug */,
+				0CF33BF5E25CC86F731ECAD927F63110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -686,8 +686,8 @@
 		7B8F9F848D9134C207C16D761F404434 /* Build configuration list for PBXNativeTarget "MGLoadingImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D46F0DFB642A27825026CCE3E52618A8 /* Debug */,
-				B5A1B59AE00E712302AC6DC8ADCF1212 /* Release */,
+				0F23A6CB8FE79CB9A0AADDBC9ABBEFB0 /* Debug */,
+				B02C9A6AC454A7AAAAE49C3EB9716FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -695,8 +695,8 @@
 		872AAB16474A0FA9276A6395D951C802 /* Build configuration list for PBXNativeTarget "Pods-MGLoadingImageView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C76B1E54D709337F7C678A51B81174B /* Debug */,
-				11649D10C8B8E558DA7696156B929B61 /* Release */,
+				33D5AC3945191716D5F0CA233FCFAF6C /* Debug */,
+				DAEC9D02B7B6741DC5E5F6ECEB5A965A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

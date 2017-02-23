@@ -1,22 +1,22 @@
 {
   "name": "MGLoadingImageView",
   "version": "0.1.0",
-  "summary": "A short description of MGLoadingImageView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A subclass on UIImageView that includes a built-in UIActivityIndicatorView",
+  "description": "A subclass on UIImageView that includes a built-in UIActivityIndicatorView to optionally display a loading spinner in the foreground of the image view, to be used whilst loading an image.",
   "homepage": "https://github.com/mikegilroy/MGLoadingImageView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "mikegilroy": "mjgilroy@me.com"
+    "mikegilroy": "hello@mikegilroy.co"
   },
   "source": {
     "git": "https://github.com/mikegilroy/MGLoadingImageView.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "MGLoadingImageView/Classes/**/*"
 }
