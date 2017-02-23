@@ -1,0 +1,6 @@
+framework module MGLoadingImageView {
+  umbrella header "MGLoadingImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

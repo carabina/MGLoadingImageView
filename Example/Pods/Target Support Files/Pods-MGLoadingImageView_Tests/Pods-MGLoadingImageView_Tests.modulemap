@@ -1,0 +1,6 @@
+framework module Pods_MGLoadingImageView_Tests {
+  umbrella header "Pods-MGLoadingImageView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
